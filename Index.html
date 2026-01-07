@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home | Mayvrik.com/Acode/Online Shopping Platform</title>
+  <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header id="navbar">
+   <div class="bus-name">
+    <div class="logo">
+      <img src="Images/Logo.jpg" class="img">
+      <h1>MAYVRIK</h1>
+      </div>
+  </div>
+  <form class="search-box">
+  <input type="search" id="searchInput" placeholder="Search outfits...">
+  <button type="submit" class="search-btn">Search</button>
+  </form>
+    <nav class="nav-links">
+      <a href="Home.html">Home</a>
+      <a href="Tops.html">Tops</a>
+      <a href="Skirts.html">Skirts</a>
+      <a href="Gowns.html">Gowns</a>
+      <a href="Hats.html">Hats</a>
+      <a href="corporate.html">corporate</a>
+      <a href="Casual.html">Casual</a>
+      <a href="underwears.html">underwears</a>
+      <a href="Occasional.html">occasional</a>
+      <a href="#"></a>
+      <a href="#"></a>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="content">
+    <div class="product">
+      <img src="Images/ropey-crop-top.jpeg" alt="rope crop top">
+      <p class="product-text">Ropey Crop Top</p>
+      <p class="product-text">Price: ₦7,500</p>
+    <button
+    class="product-btn view-btn"
+    data-name="Ropey Crop Top"
+    data-price="price:₦7,500"
+    data-image="Images/ropey-crop-top.jpeg"
+    data-description="size: 25; and whatever you want to add."
+  >
+    View Description
+  </button>
+    </div>
+    <div class="product"></div>
+    <div class="product">Product 3</div>
+    <div class="product">Product 4</div>
+    <div class="product">Product 5</div>
+    <div class="product">Product 6</div>
+    <div class="product">Product 7</div>
+    <div class="product">Product 8</div>
+    <div class="product">Product 9</div>
+    <div class="product">Product 10</div>
+  </main>
+
+  <script src="Testing.js"></script>
+  
+  <!-- PRODUCT POPUP MODAL -->
+<div id="productModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+
+    <img id="modalImage" alt="" style="width:100%; border-radius:10px; margin-bottom:10px;">
+
+    <h2 id="modalName"></h2>
+    <p id="modalPrice" style="font-weight:bold;"></p>
+    <p id="modalDescription"></p>
+  </div>
+</div>
+</body>
+</html>
