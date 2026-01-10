@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
-   background-image: url('Images/background.jpg');
+   background-image: url('images/background.jpg');
   background-size: 400px 800px;
   background-repeat: no-repeat;
   background-position: center;
@@ -11,8 +11,8 @@
 }
 
 @font-face {
-  font-family: 'Foglihten';
-  src: url('fonts/FoglihtenNo07.otf') format('opentype');
+  font-family: 'foglihten';
+  src: url('fonts/foglihtenNo07.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -20,14 +20,14 @@
 
 h1 {
   color: black;
-  font-family: 'FoglihtenNo07', sans-serif;
+  font-family: 'foglihtenNo07', sans-serif;
   text-align: center;
   font-size: 48px;
   font-style: italic;
 }
 
 .bus-name h1 {
-  font-family: 'FoglihtenNo07', serif;
+  font-family: 'foglihtenNo07', serif;
   letter-spacing: 1px;
   font-style: italic; /* override italic if needed */
 }
