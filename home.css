@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
    background-image: url('images/background.jpg');
-  background-size: 400px 800px;
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
