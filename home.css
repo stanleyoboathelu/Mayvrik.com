@@ -136,7 +136,7 @@ h1 {
 
 /* PRODUCTS */
 .product {
-  height: 280px;
+  height: 300px;
   background: rgb(235,77,128);
   display: flex;
   flex-direction: column;
