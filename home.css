@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
    background-image: url('images/background.jpg');
-  background-size: 1800px 3600px;
+  background-size: 1400px 3200px;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -136,7 +136,7 @@ h1 {
 
 /* PRODUCTS */
 .product {
-  height: 300px;
+  height: 320px;
   background: rgb(235,77,128);
   display: flex;
   flex-direction: column;
